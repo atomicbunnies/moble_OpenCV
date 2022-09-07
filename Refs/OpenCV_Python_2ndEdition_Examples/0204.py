@@ -6,5 +6,7 @@ imageFile = './data/lena.jpg'
 imgGray = cv2.imread(imageFile, cv2.IMREAD_GRAYSCALE)
 plt.axis('off')
 
-plt.imshow(imgGray, cmap = "gray", interpolation='bicubic')
+plt.imshow(imgGray, cmap = "PuRd", interpolation='bicubic')
 plt.show()
+
+#현재완료

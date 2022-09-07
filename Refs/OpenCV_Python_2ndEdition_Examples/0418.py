@@ -20,7 +20,7 @@ cv2.imshow('mask_inv',  mask_inv)
 #3
 src1_bg = cv2.bitwise_and(roi, roi, mask = mask)
 cv2.imshow('src1_bg',  src1_bg)
-
+ 
 #4
 src2_fg = cv2.bitwise_and(src2, src2, mask = mask_inv)
 cv2.imshow('src2_fg',  src2_fg)
